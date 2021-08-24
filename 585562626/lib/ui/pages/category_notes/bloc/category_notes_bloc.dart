@@ -78,9 +78,7 @@ class CategoryNotesBloc extends Bloc<CategoryNotesEvent, CategoryNotesState> {
     notes.sort((e1, e2) => e2.created.compareTo(e1.created));
     yield state.copyWith(notes: notes);
     final result = await noteRepository.updateNotes(updatedNotes);
-    if (!result) {
-      yield await _fetchNotes();
-    }
+    if (!result) yield await _fetchNotes();
   }
 
   CategoryNotesState _switchEditingMode() {
@@ -103,9 +101,7 @@ class CategoryNotesBloc extends Bloc<CategoryNotesEvent, CategoryNotesState> {
         state.tempCategory!.id!,
         Note(image: state.image?.path, text: state.text, direction: event.direction),
       );
-      if (result == 0) {
-        yield state.copyWith(notInsertedForAnotherCategory: true);
-      }
+      if (result == 0) yield state.copyWith(notInsertedForAnotherCategory: true);
     } else {
       final notes = List<Note>.from(oldState.notes);
       final note = Note(image: state.image?.path, text: state.text, direction: event.direction);
@@ -192,9 +188,7 @@ class CategoryNotesBloc extends Bloc<CategoryNotesEvent, CategoryNotesState> {
           );
       result = await noteRepository.updateNoteCategory(oldState.tempCategory!, note);
     }
-    if (result == 0) {
-      yield oldState;
-    }
+    if (result == 0) yield oldState;
   }
 
   Future<CategoryNotesState> _fetchNotes() async {
@@ -224,9 +218,7 @@ class CategoryNotesBloc extends Bloc<CategoryNotesEvent, CategoryNotesState> {
     notes.sort((e1, e2) => e2.created.compareTo(e1.created));
     yield oldState.copyWith(notes: notes);
     final result = await noteRepository.updateNote(newNote);
-    if (result == 0) {
-      yield oldState;
-    }
+    if (result == 0) yield oldState;
   }
 
   Future<CategoryNotesState> _openSearch() async {

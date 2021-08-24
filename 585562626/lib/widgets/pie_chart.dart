@@ -81,7 +81,10 @@ class _StatsPieChartState extends State<StatsPieChart> {
             Column(
               children: [
                 SizedBox(
-                  child: Image.asset('assets/${category.image}'),
+                  child: FittedBox(
+                    child: Image.asset('assets/${category.image}'),
+                    fit: BoxFit.contain,
+                  ),
                   height: defaultRadius / 2,
                 ),
               ],

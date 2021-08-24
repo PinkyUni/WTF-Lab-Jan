@@ -46,24 +46,28 @@ class NoteItem extends StatelessWidget {
         if (note.image != null)
           ClipRRect(
             borderRadius: BorderRadius.circular(CornerRadius.card),
-            child: Image.file(
-              File(note.image!),
-              fit: BoxFit.fitHeight,
+            child: FittedBox(
+              fit: BoxFit.contain,
+              child: Image.file(
+                File(note.image!),
+                fit: BoxFit.fitHeight,
+              ),
             ),
           ),
-        HashTagText(
-          text: note.text ?? '',
-          basicStyle: Theme.of(context).textTheme.subtitle1!.copyWith(
-                color: note.direction == defaultDirection
-                    ? Theme.of(context).accentIconTheme.color
-                    : null,
-              ),
-          decoratedStyle: Theme.of(context).textTheme.subtitle1!.copyWith(
-                color: note.direction == defaultDirection
-                    ? Colors.white70
-                    : Theme.of(context).accentColor,
-              ),
-        ),
+        if ((note.text ?? '').isNotEmpty)
+          HashTagText(
+            text: note.text!,
+            basicStyle: Theme.of(context).textTheme.subtitle1!.copyWith(
+                  color: note.direction == defaultDirection
+                      ? Theme.of(context).accentIconTheme.color
+                      : null,
+                ),
+            decoratedStyle: Theme.of(context).textTheme.subtitle1!.copyWith(
+                  color: note.direction == defaultDirection
+                      ? Colors.white70
+                      : Theme.of(context).accentColor,
+                ),
+          ),
       ],
     );
     return Container(

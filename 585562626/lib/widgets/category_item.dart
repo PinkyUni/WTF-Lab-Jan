@@ -36,7 +36,10 @@ class CategoryItem extends StatelessWidget {
                   ),
                   child: FractionallySizedBox(
                     widthFactor: 0.7,
-                    child: Image.asset('assets/${category.image}'),
+                    child: FittedBox(
+                      child: Image.asset('assets/${category.image}'),
+                      fit: BoxFit.contain,
+                    ),
                   ),
                 ),
               ),
