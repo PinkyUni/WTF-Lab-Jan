@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-import '../../../shared/entities/category.dart';
+import '../../../domain/entities/category.dart';
 import '../database/models/category.dart';
 
 class CategoryMapper {

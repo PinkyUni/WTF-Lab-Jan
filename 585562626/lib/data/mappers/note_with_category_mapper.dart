@@ -1,4 +1,4 @@
-import '../../../shared/entities/note_with_category.dart';
+import '../../../domain/entities/note_with_category.dart';
 import '../database/models/note_with_category.dart';
 import 'category_mapper.dart';
 import 'note_mapper.dart';

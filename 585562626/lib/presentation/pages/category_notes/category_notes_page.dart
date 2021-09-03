@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../../shared/entities/category.dart';
+import '../../../../domain/entities/category.dart';
 import 'category_notes_content.dart';
 
 class CategoryNotesArguments {

@@ -1,7 +1,7 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../../domain/data_interfaces/i_preferences_repository.dart';
-import '../../../shared/utils.dart';
+import '../../domain/utils.dart';
 
 class PreferencesRepository extends IPreferencesRepository {
   static SharedPreferences? _prefs;

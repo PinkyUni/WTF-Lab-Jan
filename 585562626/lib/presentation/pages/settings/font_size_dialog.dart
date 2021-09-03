@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../../shared/enums.dart';
+import '../../../domain/enums.dart';
 import '../../utils/utils.dart';
 
 class FontSizePickerDialog extends StatefulWidget {

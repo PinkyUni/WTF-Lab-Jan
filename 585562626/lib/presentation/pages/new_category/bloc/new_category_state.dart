@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
 
-import '../../../../../shared/entities/category.dart';
+import '../../../../../domain/entities/category.dart';
 
 enum NameValidationError { empty, none }
 enum SubmissionResult { success, failure, unknown }

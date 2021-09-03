@@ -2,8 +2,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../../../../domain/usecases/categories_usecase.dart';
 import '../../../../../../domain/usecases/notes_usecase.dart';
-import '../../../../../../shared/entities/category.dart';
-import '../../../../../../shared/entities/tag.dart';
+import '../../../../../../domain/entities/category.dart';
+import '../../../../../../domain/entities/tag.dart';
 import 'filter_event.dart';
 import 'filter_state.dart';
 

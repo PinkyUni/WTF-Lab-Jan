@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../shared/entities/category.dart';
+import '../../../domain/entities/category.dart';
 import 'models/category.dart';
 
 final int _defaultPriority = CategoryPriority.normal.index;

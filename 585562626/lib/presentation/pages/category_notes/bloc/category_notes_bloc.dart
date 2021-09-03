@@ -4,9 +4,9 @@ import 'package:hashtagable/hashtagable.dart';
 import '../../../../../domain/usecases/categories_usecase.dart';
 import '../../../../../domain/usecases/notes_usecase.dart';
 import '../../../../../domain/usecases/settings_usecase.dart';
-import '../../../../../shared/entities/category.dart';
-import '../../../../../shared/entities/note.dart';
-import '../../../../../shared/entities/tag.dart';
+import '../../../../../domain/entities/category.dart';
+import '../../../../../domain/entities/note.dart';
+import '../../../../../domain/entities/tag.dart';
 import 'category_notes_event.dart';
 import 'category_notes_state.dart';
 

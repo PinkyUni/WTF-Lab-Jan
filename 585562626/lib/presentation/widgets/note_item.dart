@@ -5,8 +5,8 @@ import 'package:flutter/widgets.dart';
 import 'package:hashtagable/hashtagable.dart';
 import 'package:intl/intl.dart';
 
-import '../../../shared/entities/category.dart';
-import '../../../shared/entities/note.dart';
+import '../../../domain/entities/category.dart';
+import '../../../domain/entities/note.dart';
 import '../utils/constants.dart';
 
 class NoteItem extends StatelessWidget {

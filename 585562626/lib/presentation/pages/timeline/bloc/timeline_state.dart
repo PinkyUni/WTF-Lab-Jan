@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
 
-import '../../../../../shared/entities/note_with_category.dart';
+import '../../../../../domain/entities/note_with_category.dart';
 
 abstract class TimelineState extends Equatable {
   const TimelineState();

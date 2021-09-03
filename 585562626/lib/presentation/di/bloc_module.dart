@@ -1,4 +1,4 @@
-import '../../../shared/entities/category.dart';
+import '../../../domain/entities/category.dart';
 import '../pages/categories/bloc/bloc.dart';
 import '../pages/category_notes/bloc/category_notes_bloc.dart';
 import '../pages/category_notes/search/bloc/search_bloc.dart';

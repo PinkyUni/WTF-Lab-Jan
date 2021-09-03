@@ -1,4 +1,4 @@
-import '../../../shared/entities/note.dart';
+import '../../../domain/entities/note.dart';
 import '../database/models/note.dart';
 
 class NoteMapper {

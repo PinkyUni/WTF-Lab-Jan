@@ -1,8 +1,8 @@
 import 'package:equatable/equatable.dart';
 import 'package:image_picker/image_picker.dart';
 
-import '../../../../../shared/entities/category.dart';
-import '../../../../../shared/entities/note.dart';
+import '../../../../../domain/entities/category.dart';
+import '../../../../../domain/entities/note.dart';
 
 abstract class CategoryNotesEvent extends Equatable {
   const CategoryNotesEvent();

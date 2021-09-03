@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-import '../../../../shared/entities/category.dart';
+import '../../../../domain/entities/category.dart';
 import '../utils/constants.dart';
 
 class CategoryItem extends StatelessWidget {

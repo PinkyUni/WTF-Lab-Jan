@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../../shared/entities/category.dart';
+import '../../../../domain/entities/category.dart';
 import '../../../presentation/pages/new_category/new_category_content.dart';
 
 class NewCategoryArguments {

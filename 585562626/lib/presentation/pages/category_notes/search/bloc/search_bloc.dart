@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../../../../shared/entities/note.dart';
-import '../../../../../../shared/entities/tag.dart';
+import '../../../../../../domain/entities/note.dart';
+import '../../../../../../domain/entities/tag.dart';
 import 'search_event.dart';
 import 'search_state.dart';
 

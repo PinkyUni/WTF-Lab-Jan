@@ -1,7 +1,7 @@
 import 'package:equatable/equatable.dart';
 
-import '../../../../../../shared/entities/category.dart';
-import '../../../../../../shared/entities/tag.dart';
+import '../../../../../../domain/entities/category.dart';
+import '../../../../../../domain/entities/tag.dart';
 
 abstract class FilterEvent extends Equatable {
   const FilterEvent();

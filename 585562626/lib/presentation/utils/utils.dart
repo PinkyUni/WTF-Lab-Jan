@@ -1,4 +1,4 @@
-import '../../../shared/enums.dart';
+import '../../domain/enums.dart';
 import 'constants.dart';
 
 extension ToFontSize on SettingsFontSize {

@@ -1,4 +1,4 @@
-import '../../../shared/entities/tag.dart';
+import '../../../domain/entities/tag.dart';
 import '../database/models/tag.dart';
 
 class TagMapper {

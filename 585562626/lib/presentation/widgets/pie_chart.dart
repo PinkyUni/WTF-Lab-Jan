@@ -1,7 +1,7 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 
-import '../../../shared/entities/category_count.dart';
+import '../../../domain/entities/category_count.dart';
 import '../utils/constants.dart';
 
 class StatsPieChart extends StatefulWidget {

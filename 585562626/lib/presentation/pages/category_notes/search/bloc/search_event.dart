@@ -1,7 +1,7 @@
 import 'package:equatable/equatable.dart';
 
-import '../../../../../../shared/entities/note.dart';
-import '../../../../../../shared/entities/tag.dart';
+import '../../../../../../domain/entities/note.dart';
+import '../../../../../../domain/entities/tag.dart';
 
 abstract class SearchEvent extends Equatable {
   const SearchEvent();

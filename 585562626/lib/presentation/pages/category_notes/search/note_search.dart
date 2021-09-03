@@ -3,8 +3,8 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../../../shared/entities/note.dart';
-import '../../../../../shared/entities/tag.dart';
+import '../../../../../domain/entities/note.dart';
+import '../../../../../domain/entities/tag.dart';
 import '../../../di/injector.dart';
 import '../../../utils/constants.dart';
 import '../../../utils/themes.dart';

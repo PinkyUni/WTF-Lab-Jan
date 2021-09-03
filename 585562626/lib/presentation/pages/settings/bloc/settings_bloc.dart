@@ -4,7 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:local_auth/local_auth.dart';
 
 import '../../../../../domain/usecases/settings_usecase.dart';
-import '../../../../../shared/enums.dart';
+import '../../../../domain/enums.dart';
 import '../bloc/bloc.dart';
 
 class SettingsBloc extends Bloc<SettingsEvent, SettingsState> {

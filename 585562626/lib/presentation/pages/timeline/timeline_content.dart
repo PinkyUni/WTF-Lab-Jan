@@ -4,8 +4,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../presentation/pages/timeline/bloc/timeline_bloc.dart';
 import '../../../presentation/pages/timeline/filter/filter_page.dart';
-import '../../../../shared/entities/category.dart';
-import '../../../../shared/entities/tag.dart';
+import '../../../../domain/entities/category.dart';
+import '../../../../domain/entities/tag.dart';
 import '../../di/injector.dart';
 import '../../widgets/note_item.dart';
 import 'bloc/bloc.dart';

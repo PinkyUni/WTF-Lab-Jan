@@ -1,9 +1,9 @@
 import 'package:collection/collection.dart';
 
-import '../../../shared/entities/category.dart';
-import '../../../shared/entities/category_count.dart';
-import '../../../shared/entities/note_with_category.dart';
-import '../../../shared/entities/stats_data.dart';
+import '../../../domain/entities/category.dart';
+import '../../../domain/entities/category_count.dart';
+import '../../../domain/entities/note_with_category.dart';
+import '../../../domain/entities/stats_data.dart';
 import '../data_interfaces/i_category_repository.dart';
 import '../data_interfaces/i_note_repository.dart';
 

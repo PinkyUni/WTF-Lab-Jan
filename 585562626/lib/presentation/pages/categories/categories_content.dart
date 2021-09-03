@@ -3,7 +3,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../../shared/entities/category.dart';
+import '../../../../domain/entities/category.dart';
 import '../../../presentation/pages/categories/bloc/bloc.dart';
 import '../../../presentation/pages/category_notes/category_notes_page.dart';
 import '../../../presentation/pages/new_category/new_category_page.dart';

@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../../shared/entities/category.dart';
-import '../../../../shared/entities/note.dart';
+import '../../../../domain/entities/category.dart';
+import '../../../../domain/entities/note.dart';
 import '../../di/injector.dart';
 import '../../widgets/note_item.dart';
 import '../starred_notes/bloc/starred_notes_bloc.dart';

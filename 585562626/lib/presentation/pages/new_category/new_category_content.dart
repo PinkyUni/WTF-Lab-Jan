@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../../shared/entities/category.dart';
+import '../../../../domain/entities/category.dart';
 import '../../di/injector.dart';
 import '../../utils/constants.dart';
 import '../../widgets/category_item.dart';

@@ -7,8 +7,8 @@ import 'package:hashtagable/hashtagable.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:permission_handler/permission_handler.dart';
 
-import '../../../../../shared/entities/category.dart';
-import '../../../../../shared/entities/note.dart';
+import '../../../../../domain/entities/category.dart';
+import '../../../../../domain/entities/note.dart';
 import '../../di/injector.dart';
 import '../../utils/constants.dart';
 import '../../widgets/badge.dart';

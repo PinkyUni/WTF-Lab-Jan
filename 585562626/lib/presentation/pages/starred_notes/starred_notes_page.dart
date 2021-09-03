@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../../shared/entities/category.dart';
+import '../../../../domain/entities/category.dart';
 import 'starred_notes_content.dart';
 
 class StarredNotesArguments {

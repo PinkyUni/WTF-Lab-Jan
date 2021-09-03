@@ -1,4 +1,4 @@
-import '../../../shared/entities/category.dart';
+import '../../../domain/entities/category.dart';
 import '../data_interfaces/i_category_repository.dart';
 
 class CategoriesUseCase {

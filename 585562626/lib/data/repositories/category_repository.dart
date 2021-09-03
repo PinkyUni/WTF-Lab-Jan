@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import '../../../domain/data_interfaces/i_category_repository.dart';
-import '../../../shared/entities/category.dart';
+import '../../../domain/entities/category.dart';
 import '../database/database_provider.dart';
 import '../mappers/category_mapper.dart';
 

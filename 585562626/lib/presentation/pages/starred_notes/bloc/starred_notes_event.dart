@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
 
-import '../../../../../shared/entities/note.dart';
+import '../../../../../domain/entities/note.dart';
 
 abstract class StarredNotesEvent extends Equatable {
   const StarredNotesEvent();

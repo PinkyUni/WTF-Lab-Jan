@@ -1,4 +1,4 @@
-import '../../../shared/entities/category.dart';
+import '../../../domain/entities/category.dart';
 
 abstract class ICategoryRepository {
   Future<int> countCategories();

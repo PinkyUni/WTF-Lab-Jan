@@ -1,7 +1,7 @@
-import '../../../shared/entities/category.dart';
-import '../../../shared/entities/note.dart';
-import '../../../shared/entities/note_with_category.dart';
-import '../../../shared/entities/tag.dart';
+import '../../../domain/entities/category.dart';
+import '../../../domain/entities/note.dart';
+import '../../../domain/entities/note_with_category.dart';
+import '../../../domain/entities/tag.dart';
 import '../data_interfaces/i_note_repository.dart';
 
 class NotesUseCase {

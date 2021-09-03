@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 
-import '../../../shared/entities/category.dart';
+import '../../../domain/entities/category.dart';
 import 'database_data.dart';
 import 'models/category.dart';
 import 'models/note.dart';
