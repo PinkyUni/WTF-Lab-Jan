@@ -7,7 +7,7 @@ import '../../../di/injector.dart';
 import '../../../utils/constants.dart';
 import '../../../utils/themes.dart';
 import '../../../widgets/category_item.dart';
-import '../timeline_content.dart';
+import '../timeline_page.dart';
 import 'bloc/filter_bloc.dart';
 
 class FilterContent extends StatefulWidget {

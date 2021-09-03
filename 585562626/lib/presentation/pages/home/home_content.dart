@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../presentation/pages/categories/categories_page.dart';
-import '../../../presentation/pages/home/bloc/bloc.dart';
-import '../../../presentation/pages/settings/settings_page.dart';
 import '../../di/injector.dart';
+import '../categories/categories_page.dart';
+import '../home/bloc/bloc.dart';
+import '../settings/settings_page.dart';
 import '../stats/stats_page.dart';
 import '../timeline/timeline_page.dart';
 
@@ -17,7 +17,6 @@ class _HomeContentState extends State<HomeContent> {
   final HomeBloc _bloc = injector.get();
   final _tabs = const [
     CategoriesPage(),
-    Center(child: Text('2')),
     TimelinePage(),
     StatsPage(),
   ];
@@ -38,10 +37,6 @@ class _HomeContentState extends State<HomeContent> {
             const BottomNavigationBarItem(
               icon: Icon(Icons.home_outlined),
               label: 'Home',
-            ),
-            const BottomNavigationBarItem(
-              icon: Icon(Icons.list_alt_outlined),
-              label: 'Daily',
             ),
             const BottomNavigationBarItem(
               icon: Icon(Icons.timeline_outlined),
