@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:share/share.dart';
 
-import '../../../presentation/pages/settings/bloc/bloc.dart';
 import '../../../domain/enums.dart';
+import '../../../presentation/pages/settings/bloc/bloc.dart';
 import '../../di/injector.dart';
 import '../../utils/constants.dart';
 import 'font_size_dialog.dart';

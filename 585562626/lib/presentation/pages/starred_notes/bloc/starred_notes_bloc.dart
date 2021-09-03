@@ -1,8 +1,8 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../../../domain/usecases/notes_usecase.dart';
 import '../../../../../domain/entities/category.dart';
 import '../../../../../domain/entities/note.dart';
+import '../../../../../domain/usecases/notes_usecase.dart';
 import 'starred_notes_event.dart';
 import 'starred_notes_state.dart';
 

@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../../../domain/usecases/categories_usecase.dart';
 import '../../../../../domain/entities/category.dart';
+import '../../../../../domain/usecases/categories_usecase.dart';
 import 'categories_event.dart';
 import 'categories_state.dart';
 

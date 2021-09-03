@@ -11,5 +11,5 @@ void initRepositoryModule() {
   injector.registerSingleton<DbProvider>(DbProvider());
   injector.registerSingleton<ICategoryRepository>(CategoryRepository(injector.get()));
   injector.registerSingleton<INoteRepository>(NoteRepository(injector.get()));
-  injector.registerSingleton<IPreferencesRepository>(PreferencesRepository());2
+  injector.registerSingleton<IPreferencesRepository>(PreferencesRepository());
 }

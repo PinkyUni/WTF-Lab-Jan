@@ -1,6 +1,6 @@
-import 'package:cool_notes/domain/enums.dart';
 import 'package:equatable/equatable.dart';
 
+import '../../../../domain/enums.dart';
 
 abstract class SettingsEvent extends Equatable {
   const SettingsEvent();

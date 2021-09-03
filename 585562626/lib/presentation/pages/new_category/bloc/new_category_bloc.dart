@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../../../domain/usecases/categories_usecase.dart';
 import '../../../../../domain/entities/category.dart';
+import '../../../../../domain/usecases/categories_usecase.dart';
 import '../bloc/bloc.dart';
 import 'new_category_event.dart';
 import 'new_category_state.dart';
