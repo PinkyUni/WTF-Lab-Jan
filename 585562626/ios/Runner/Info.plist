@@ -15,31 +15,31 @@
 		<key>CFBundlePackageType</key>
 		<string>APPL</string>
 		<key>CFBundleShortVersionString</key>
-		<string>$(FLUTTER_BUILD_NAME)</string>
+		<string>$(FLUTTER_build_NAME)</string>
 		<key>CFBundleSignature</key>
 		<string>????</string>
 		<key>CFBundleVersion</key>
-		<string>$(FLUTTER_BUILD_NUMBER)</string>
-		<key>LSRequiresIPhoneOS</key>
+		<string>$(FLUTTER_build_NUMBER)</string>
+		<key>LSReqpresentationresIPhoneOS</key>
 		<true/>
-		<key>UILaunchStoryboardName</key>
+		<key>presentationLaunchStoryboardName</key>
 		<string>LaunchScreen</string>
-		<key>UIMainStoryboardFile</key>
+		<key>presentationMainStoryboardFile</key>
 		<string>Main</string>
-		<key>UISupportedInterfaceOrientations</key>
+		<key>presentationSupportedInterfaceOrientations</key>
 		<array>
-			<string>UIInterfaceOrientationPortrait</string>
-			<string>UIInterfaceOrientationLandscapeLeft</string>
-			<string>UIInterfaceOrientationLandscapeRight</string>
+			<string>presentationInterfaceOrientationPortrait</string>
+			<string>presentationInterfaceOrientationLandscapeLeft</string>
+			<string>presentationInterfaceOrientationLandscapeRight</string>
 		</array>
-		<key>UISupportedInterfaceOrientations~ipad</key>
+		<key>presentationSupportedInterfaceOrientations~ipad</key>
 		<array>
-			<string>UIInterfaceOrientationPortrait</string>
-			<string>UIInterfaceOrientationPortraitUpsideDown</string>
-			<string>UIInterfaceOrientationLandscapeLeft</string>
-			<string>UIInterfaceOrientationLandscapeRight</string>
+			<string>presentationInterfaceOrientationPortrait</string>
+			<string>presentationInterfaceOrientationPortraitUpsideDown</string>
+			<string>presentationInterfaceOrientationLandscapeLeft</string>
+			<string>presentationInterfaceOrientationLandscapeRight</string>
 		</array>
-		<key>UIViewControllerBasedStatusBarAppearance</key>
+		<key>presentationViewControllerBasedStatusBarAppearance</key>
 		<false/>
 		<key>NSPhotoLibraryUsageDescription</key>
 		<string>Allow access to photo library</string>
@@ -49,7 +49,7 @@
 		<string>Allow access to microphone</string>
 		<key>NSFaceIDUsageDescription</key>
 		<string>Why is my app authenticating using face id?</string>
-		<key>UIStatusBarHidden</key>
+		<key>presentationStatusBarHidden</key>
 		<false/>
 	</dict>
 </plist>
